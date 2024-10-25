@@ -34,3 +34,45 @@ To get started, clone the repository to your local machine:
 ```bash
 git clone <repository-url>
 cd <repository-name>
+
+### Setting Up the Backend
+
+1. **Navigate to the backend folder**:
+
+    ```bash
+    cd backend
+    ```
+
+2. **Create a virtual environment** (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    ```
+
+    Then activate the virtual environment:
+   - On Windows:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+   - On macOS/Linux:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+3. **Install the required Python packages**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Flask server**:
+
+    ```bash
+    python app.py
+    ```
+
+   The server will start, and you can access it at `http://localhost:5000` by default.
+
