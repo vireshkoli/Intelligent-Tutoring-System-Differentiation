@@ -6,7 +6,6 @@ import sympy as sp
 app = Flask(__name__)
 CORS(app)
 
-
 def parse_function(function):
     terms = re.findall(r'([+-]?\d*\.?\d*\*?(?:x(?:\^\d+)?|tan\(x\)|cos\(x\)|sin\(x\)|cot\(x\)|sec\(x\)|sec\^2\(x\)|cosec\(x\)|cosec\^2\(x\)|log\(x\)|e\^x|\(1/x\)|a(?:\^\d+)?|sec\(x\)\*tan\(x\)|cosec\(x\)\*cot\(x\)|[a-zA-Z])|[+-]?\d+)', function.replace(' ', ''))
 

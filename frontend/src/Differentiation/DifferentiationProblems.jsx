@@ -8,7 +8,7 @@ function DifferentiationProblems() {
   const [problemStatement, setProblemStatement] = useState("");
   const [canMarkSolved, setCanMarkSolved] = useState(true);
   const [showIntro, setShowIntro] = useState(true);
-
+  
   const levelGroups = [
     { name: "Level 1: Polynomial Differentiation", levels: [1.1, 1.2, 1.3] },
     {
