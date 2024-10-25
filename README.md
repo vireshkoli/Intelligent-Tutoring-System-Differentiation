@@ -28,13 +28,19 @@ The frontend is built using React and requires Node.js and npm for installation.
 
 ## Installation Instructions
 
-### Clone the Repository
-To get started, clone the repository to your local machine:
+### Cloning the Repository
 
-```bash
-git clone <repository-url>
-cd <repository-name>
-```
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/vireshkoli/Intelligent-Tutoring-System-Differentiation.git
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd Intelligent-Tutoring-System-Differentiation
+    ```
 
 ### Setting Up the Frontend
 
