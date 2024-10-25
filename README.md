@@ -36,6 +36,37 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
+### Setting Up the Frontend
+
+1. **Navigate to the frontend folder**:
+
+    ```bash
+    cd frontend
+    ```
+
+2. **Install the required Node.js packages**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Build the React application for production**:
+
+    ```bash
+    npm run build
+    ```
+
+    This will create a `build` folder containing the production-ready files.
+
+4. **Start the React application** (optional, for development purposes):
+
+    ```bash
+    npm start
+    ```
+
+    The application will run on `http://localhost:3000` by default.
+
+
 ### Setting Up the Backend
 
 1. **Navigate to the backend folder**:
