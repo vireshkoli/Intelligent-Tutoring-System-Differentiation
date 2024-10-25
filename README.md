@@ -34,6 +34,7 @@ To get started, clone the repository to your local machine:
 ```bash
 git clone <repository-url>
 cd <repository-name>
+```
 
 ### Setting Up the Backend
 
@@ -75,4 +76,5 @@ cd <repository-name>
     ```
 
    The server will start, and you can access it at `http://localhost:5000` by default.
+
 
