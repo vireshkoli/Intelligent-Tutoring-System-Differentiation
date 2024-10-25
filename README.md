@@ -136,3 +136,9 @@ To host the project on a company portal or another hosting provider:
 2. Move the React `build` folder to the Flask backend as described in the **Building for Production** section.
 3. Ensure that the Flask server is set to serve the static files from the `build` folder (update routes if needed).
 4. Set environment variables if needed (for production, API keys, etc.).
+
+--- 
+
+## Acknowledgements
+
+Dr. M. Sasikumar - Executive Director, C-DAC Mumbai, for guidance during the project.
