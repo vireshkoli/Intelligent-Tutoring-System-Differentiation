@@ -1,0 +1,24 @@
+.header-container{
+    font-family: "DM Sans", sans-serif;
+    height: 50%;
+}
+.header-image img{
+    width: 90%;
+    height:auto;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5rem;
+}                                                                                                                          
+.header-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text{
+    font-size: 3rem;
+}
