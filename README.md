@@ -127,28 +127,6 @@ The frontend is built using React and requires **Node.js** and **npm** for insta
 
 ---
 
-## Building for Production
-
-Once the frontend and backend have been set up, you can build the frontend for production and serve it with the Python Flask backend.
-
-1. **Build the React app**:
-
-    ```bash
-    cd frontend
-    npm run build
-    ```
-
-2. **Move the `build` folder to the backend directory**:
-
-    ```bash
-    mv build ../backend
-    ```
-
-3. **Serve the React app from the Flask server**:
-
-   In the `backend/app.py` file, serve the static files from the `build` directory.
-
----
 
 ## Hosting Instructions
 
