@@ -3,18 +3,22 @@
 ## Overview
 This project is an Intelligent Tutoring System designed to assist users in solving differentiation problems. The system is structured in levels of increasing difficulty and provides real-time, step-by-step feedback for incorrect steps, helping learners identify and correct mistakes.
 
+---
 
 ## Project Structure
 The project consists of two main directories:
 
-
 - **frontend**: Contains the React application that serves as the user interface.
 - **backend**: Contains the Python Flask application that manages the backend server.
+
+---
 
 ## Features
 - **Level-based Learning**: Users can progress through various levels, each focusing on different aspects of differentiation.
 - **Real-time Feedback**: The system offers immediate feedback on user inputs to aid learning.
 - **Dynamic Problem Generation**: Problems are generated based on user progression.
+
+---
 
 ## Requirements
 
@@ -26,7 +30,9 @@ To set up the backend, you will need the following Python packages:
 - SymPy
 
 ### Frontend
-The frontend is built using React and requires Node.js and npm for installation.
+The frontend is built using React and requires **Node.js** and **npm** for installation.
+
+---
 
 ## Installation Instructions
 
@@ -43,6 +49,8 @@ The frontend is built using React and requires Node.js and npm for installation.
     ```bash
     cd Intelligent-Tutoring-System-Differentiation
     ```
+
+---
 
 ### Setting Up the Frontend
 
@@ -74,6 +82,7 @@ The frontend is built using React and requires Node.js and npm for installation.
 
     The application will run on `http://localhost:3000` by default.
 
+---
 
 ### Setting Up the Backend
 
@@ -116,4 +125,36 @@ The frontend is built using React and requires Node.js and npm for installation.
 
    The server will start, and you can access it at `http://localhost:5000` by default.
 
+---
 
+## Building for Production
+
+Once the frontend and backend have been set up, you can build the frontend for production and serve it with the Python Flask backend.
+
+1. **Build the React app**:
+
+    ```bash
+    cd frontend
+    npm run build
+    ```
+
+2. **Move the `build` folder to the backend directory**:
+
+    ```bash
+    mv build ../backend
+    ```
+
+3. **Serve the React app from the Flask server**:
+
+   In the `backend/app.py` file, serve the static files from the `build` directory.
+
+---
+
+## Hosting Instructions
+
+To host the project on a company portal or another hosting provider:
+
+1. Deploy the **Flask backend** on a server or hosting service (like Heroku, AWS, or any company portal).
+2. Move the React `build` folder to the Flask backend as described in the **Building for Production** section.
+3. Ensure that the Flask server is set to serve the static files from the `build` folder (update routes if needed).
+4. Set environment variables if needed (for production, API keys, etc.).
